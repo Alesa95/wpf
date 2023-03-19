@@ -1,0 +1,4 @@
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows8.0\MainWindow.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows8.0\App.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows8.0\Layouts_MarkupCompile.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows8.0\Layouts_MarkupCompile.lref

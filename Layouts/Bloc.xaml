@@ -1,0 +1,55 @@
+﻿<Window x:Class="Layouts.Bloc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Layouts"
+        mc:Ignorable="d"
+        Title="Bloc" Height="450" Width="800">
+    <Grid>
+        <Frame x:Name="Main"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="415*"/>
+        </Grid.RowDefinitions>
+        <Menu Height="Auto" Width="Auto" Grid.ColumnSpan="2">
+            <MenuItem x:Name="menuArchivo" Header="Archivo">
+                <MenuItem x:Name="menuAbrir" Header="Abrir..." Click="abrirArchivo"/>
+                <Separator/>
+                <MenuItem x:Name="menuGuardar" Header="Guardar" Click="guardarArchivo">
+                    <MenuItem.Icon>
+                        <Image Source="C:/Users/aleja/Desktop/save.jpg"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem x:Name="menuGuardarComo" Header="Guardar como..." Click="guardarArchivoComo"/>
+                <Separator/>
+                <MenuItem x:Name="menuCerrar" Header="Cerrar" Click="cerrarArchivo"/>
+                <Separator/>
+                <MenuItem x:Name="menuSalir" Header="Salir"/>
+            </MenuItem>
+            <MenuItem x:Name="menuEditar" Header="Editar">
+                <MenuItem x:Name="menuEncriptar" Header="Encriptar" Click="encriptar"/>
+                <MenuItem x:Name="menuDesenciptar" Header="Desencriptar" Click="desencriptar"/>
+                <MenuItem x:Name="MenuMayus" Header="Mayus" Click="convertirMayus"/>
+                <MenuItem x:Name="menuNegrita" Header="Negrita" Click="convertirNegrita">
+                    <MenuItem.Icon>
+                        <Image Source="C:/Users/aleja/Desktop/Bold.webp"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="textEditor" Margin="15,15,15,15" Grid.Row="1" TextWrapping="Wrap" Height="Auto"/>
+        <RichTextBox x:Name="textEditorPlus" Grid.Column="1" Grid.Row="1" Margin="15,15,15,15">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

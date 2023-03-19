@@ -1,0 +1,11 @@
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts_MarkupCompile.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts_MarkupCompile.lref
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.g.resources
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.AssemblyInfoInputs.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.AssemblyInfo.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\net6.0-windows\Layouts.csproj.CoreCompileInputs.cache

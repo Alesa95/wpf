@@ -1,0 +1,5 @@
+C:\Users\aleja\source\repos\Layouts\obj\Debug\netcoreapp3.1\Layouts.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\aleja\source\repos\Layouts\obj\Debug\netcoreapp3.1\Layouts_MarkupCompile.cache
+C:\Users\aleja\source\repos\Layouts\obj\Debug\netcoreapp3.1\Layouts_MarkupCompile.lref
