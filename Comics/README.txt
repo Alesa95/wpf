@@ -1,0 +1,1 @@
+Ejercicio de ejemplo sobre cómo distribuir los elementos en WPF.
