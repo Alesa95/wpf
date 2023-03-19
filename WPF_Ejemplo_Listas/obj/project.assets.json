@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "PDFsharp-wpf/1.50.5147": {
+        "type": "package",
+        "compile": {
+          "lib/net30/PdfSharp-wpf.dll": {},
+          "lib/net30/PdfSharp.Charting-wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net30/PdfSharp-wpf.dll": {},
+          "lib/net30/PdfSharp.Charting-wpf.dll": {}
+        },
+        "resource": {
+          "lib/net30/de/PdfSharp-wpf.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net30/de/PdfSharp.Charting-wpf.resources.dll": {
+            "locale": "de"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PDFsharp-wpf/1.50.5147": {
+      "sha512": "Dsxv4RpfRRN82inWpa2Q55xF7hORl7VX+vkEgzIlhrc1OpFJfsXRnEdISSCfE+to8grM5XSCEbM6zyioJX5Qhw==",
+      "type": "package",
+      "path": "pdfsharp-wpf/1.50.5147",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net30/PdfSharp-wpf.dll",
+        "lib/net30/PdfSharp-wpf.xml",
+        "lib/net30/PdfSharp.Charting-wpf.dll",
+        "lib/net30/PdfSharp.Charting-wpf.xml",
+        "lib/net30/de/PdfSharp-wpf.resources.dll",
+        "lib/net30/de/PdfSharp.Charting-wpf.resources.dll",
+        "pdfsharp-wpf.1.50.5147.nupkg.sha512",
+        "pdfsharp-wpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "PDFsharp-wpf >= 1.50.5147"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aleja\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aleja\\source\\repos\\WPF_Ejemplo_Listas\\WPF_Ejemplo_Listas.csproj",
+      "projectName": "WPF_Ejemplo_Listas",
+      "projectPath": "C:\\Users\\aleja\\source\\repos\\WPF_Ejemplo_Listas\\WPF_Ejemplo_Listas.csproj",
+      "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aleja\\source\\repos\\WPF_Ejemplo_Listas\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "PDFsharp-wpf": {
+            "target": "Package",
+            "version": "[1.50.5147, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"PDFsharp-wpf 1.50.5147\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "PDFsharp-wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

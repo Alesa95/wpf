@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b4bba24a-0ff3-42a0-be04-df8325bfb731": {
+      "ProjectGuid": "b4bba24a-0ff3-42a0-be04-df8325bfb731",
+      "DisplayName": "FileDialogs",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
